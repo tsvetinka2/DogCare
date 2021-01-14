@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDog">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="348dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cropballoons"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingTop="12dp"
+            android:fontFamily="@font/antic"
+            android:text="@string/name_of_pet"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/petName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:padding="5dip"
+            android:hint="Name of the Pet"
+            android:background="@drawable/roundedcorners"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingTop="12dp"
+            android:text="@string/pet_birthday"
+            android:fontFamily="@font/antic"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/petBirthday"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/roundedcorners"
+            android:inputType="none"
+            android:focusable="false"
+            android:hint="@string/date"
+            android:padding="5dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingTop="12dp"
+            android:text="@string/primary_breed"
+            android:fontFamily="@font/antic"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/primaryBreed"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:padding="5dip"
+            android:hint="The breed of the Pet"
+            android:background="@drawable/roundedcorners"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingTop="12dp"
+            android:fontFamily="@font/antic"
+            android:text="@string/weight_kg"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/petWeight"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:padding="5dip"
+            android:hint="Weight"
+            android:background="@drawable/roundedcorners" />
+
+        <Button
+            android:id="@+id/addDogBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/let_s_add_a_dog"
+            android:background="@drawable/roundedcorners"></Button>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetPassword"
+    android:background="@color/white"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selection"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/bungee"
+            android:layout_marginTop="30dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make_selection"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp">
+        </TextView>
+        <RelativeLayout
+            android:id="@+id/relativeLayoutPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:background="@color/light_green"
+            android:paddingVertical="30dp">
+            
+            <ImageView
+                android:id="@+id/mobileIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mobilephone"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/mobileTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/via_sms"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/mobileIcon">
+            </TextView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transperant">
+
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_green"
+            android:paddingVertical="30dp"
+            android:paddingHorizontal="10dp">
+
+            <ImageView
+                android:id="@+id/mailIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/envelope"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/mailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/via_email"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/mailIcon">
+            </TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transperant">
+
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

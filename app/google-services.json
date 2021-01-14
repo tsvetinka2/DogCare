@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "117878583026",
+    "project_id": "dogcare-16d8b",
+    "storage_bucket": "dogcare-16d8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117878583026:android:570b3874053d1f77faea6b",
+        "android_client_info": {
+          "package_name": "com.example.dogcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117878583026-dpe3d4j21nu0bnnmr0nb4cbo8u469a81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dogcare",
+            "certificate_hash": "ff1d7b685b31657338ffd411ff7689ed99ab5f19"
+          }
+        },
+        {
+          "client_id": "117878583026-39n1ucbm5gqme28ovnrm6i2et9s8a4in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd0AJ-RIusd1QoLYT44h9PuofsRC6eJSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117878583026-39n1ucbm5gqme28ovnrm6i2et9s8a4in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
